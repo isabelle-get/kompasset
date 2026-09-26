@@ -18,29 +18,7 @@ app.get("/resusjer", (req, res) =>{
     res.render("index")
 })
 
-app.get("/boksEn", (req, res) =>{
-    res.render("index")
-})
 
-app.get("/boksTo", (req, res) =>{
-    res.render("index")
-})
-
-app.get("/boksTre", (req, res) =>{
-    res.render("index")
-})
-
-app.get("/boksFire", (req, res) =>{
-    res.render("index")
-})
-
-app.get("/boksFem", (req, res) =>{
-    res.render("index")
-})
-
-app.get("/boksSeks", (req, res) =>{
-    res.render("index")
-})
 
 
 
