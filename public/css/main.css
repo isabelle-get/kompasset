@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    height: 94%;
+    margin: 18px;
+}
+
+/* på ventre side */
+
+.left{
+    width: 50%;
+    background-image: url(/img/background.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 20px;
+}
+/* på høyre side */
+
+.right{
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+}
+
+h1{
+    font-size: 60px;
+    margin: 0;
+}
+
+.knapper{
+    display: flex;
+    gap: 150px;
+    margin-top: 150px;
+}
+
+.knapper a{
+    background-color: green;
+    height: 40px;
+    width: 150px;
+    border-radius: 30px;
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    display: inline-block;
+}
