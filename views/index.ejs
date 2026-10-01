@@ -2,36 +2,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>hjelpekompasset</title>
+    <title>hjem</title>
+    <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-    <div class="top">
+    <div class="wrapper">
+        <div class="left">
+        </div>
 
-        <div class="topText">
-            <h1>hjelpekompasset</h1>
-            <input type="text" name="look" id="look" list="theList">
-           <datalist id="theList">
-            <option value="kontakt"><a href="./kontakt.ejs">kontakt</a></option>
-           </datalist> 
+        <div class="right">
+            <h1>Hjelpekompasset</h1>
+            <p>Hverdagen er ikke lett, det kommer stadig flere utfordringer som ikke alltid er like lett å prate om. Det kan føles ganske tungt og ensomt når det er ingen som forstår hvordan det er. Her finner du en generell oversikt over hva det er, og hvordan å hjelpe.</p>
+
+                <div class="knapper">
+                    <a href="./kontakt.ejs">kontakt</a>
+                    <a href="./resusjer.ejs">resusjer</a>
+
+                </div>
 
         </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+        <div class="cards">
+            
+
+            <div class="TheCards">
+                <h2>føler du deg ofte stresset?</h2>
+                
+                <a href="./stress.ejs">les mer →</a>
+            </div>
+
+            <div class="TheCards">
+                <h2>Føler du deg ofte alene?      </h2>
+                <a href="./alene.ejs" >les mer →</a>
+                
+            </div>
+
+            <div class="TheCards">
+                <h2>Utfordringer hjemme?</h2>
+                <a href="./familie.ejs">les mer →</a>
+                
+            </div>
+
+            <div class="TheCards">
+                <h2>Søvnproblemer eller ofte sliten?</h2>
+                <a href="./sovn.ejs">les mer →</a>
+                
+            </div>
+
+            <div class="TheCards">
+                <h2>Usikkerhet om veien videre?</h2>
+                <a href="./fremtid.ejs">les mer →</a>
+                
+            </div>
+
+            
+
+        </div>
+
     </div>
-    
 </body>
 </html>
